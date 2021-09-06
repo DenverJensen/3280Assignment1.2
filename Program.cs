@@ -43,7 +43,7 @@ namespace Assignment1._2
             while (!Double.TryParse(snumber2, out number2))
             {
                 Console.WriteLine("Not a valid number, try again.");
-                snumber1 = Console.ReadLine();
+                snumber2 = Console.ReadLine();
             }
 
             sum = number1 + number2;
@@ -90,6 +90,7 @@ namespace Assignment1._2
             {
                 Console.WriteLine("{0} is not equal to {1}", number1, number2);
             }
+            Console.ReadLine();
         }
     }
 }
